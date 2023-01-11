@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+}
+
+.circle {
+    position: absolute;
+    background: #00940fad;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 100px solid #0a3a95a3;
+}
+
+.square {
+    position: absolute;
+    background: red;
+    border: 1px solid black;
+}
